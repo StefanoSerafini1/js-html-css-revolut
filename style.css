@@ -1,0 +1,104 @@
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+/* logo revoult */
+ header img {
+   height: 40px;
+   width: 180px;
+ }
+.wrapper{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.wrapper a{
+  text-decoration: none;
+  color: grey;
+}
+/* hover con variazione colore */
+.wrapper a:hover {
+  color:black;
+}
+/* header sinistra gen+lista */
+.header-left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.header-left ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  padding-left: 20px;
+  color: grey;
+}
+
+/*header destra gen+lista*/
+.header-right {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header-right > ul li{
+  display: inline-block;
+  color: grey;
+}
+.header-right ul li:hover {
+  color:black;
+}
+/* bottone*/
+button {
+  background-color: #d41dd7;
+  color: white;
+  padding: 15px;
+  border-radius: 25px;
+  margin-left: 15px;
+}
+/* parte tendine */
+.relative{
+  position: relative;
+}
+/* tendine gen */
+.window{
+  position: absolute;
+  left: 0px;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 2px linear;
+}
+.window > li{
+  padding: 20px;
+}
+.display-none{
+  display: none;
+}
+/* tendina prodotti */
+.prodotti {
+  width: 400px;
+  left: -150px;
+
+}
+/* tendina azienda*/
+.azienda {
+  width: 200px;
+  left:-50px;
+}
+.padding-left {
+  padding-left: 20px;
+}
+.active {
+  display: block;
+}
